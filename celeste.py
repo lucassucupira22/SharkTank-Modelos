@@ -68,11 +68,11 @@ rotulo_instrucao2 = tk.Label(janela, text="Após a imagem abrir em outra janela,
 rotulo_instrucao2.pack(pady=5)
 
 # Botão para aplicar ruído branco
-botao_aplicar_ruido = tk.Button(janela, text="Aplicar Ruído Branco", command=aplicar_ruido, bg="darkred", fg="white")
+botao_aplicar_ruido = tk.Button(janela, text="Aplicar Ruído Branco (borrar imagem)", command=aplicar_ruido, bg="darkred", fg="white")
 botao_aplicar_ruido.pack(pady=5)
 
 # Botão para remover o ruído branco
-botao_remover_ruido = tk.Button(janela, text="Remover Ruído Branco", command=remover_ruido, bg="darkred", fg="white")
+botao_remover_ruido = tk.Button(janela, text="Remover Ruído Branco (limpar imagem)", command=remover_ruido, bg="darkred", fg="white")
 botao_remover_ruido.pack(pady=5)
 
 # Iniciar o loop principal da GUI
